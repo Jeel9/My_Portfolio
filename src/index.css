@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Clash;
+  src: url(../src/assets/ClashGrotesk_Complete/Fonts/WEB/fonts/ClashGrotesk-Variable.ttf);
+}
+
+@font-face {
+  font-family: stardom;
+  src: url(../src/assets/Stardom_Complete/Fonts/WEB/fonts/Stardom-Regular.ttf);
+}
+
+@font-face {
+  font-family: tiny;
+  src: url(../src/assets/Tiny5/Tiny5-Regular.ttf);
+}
+
+@font-face {
+  font-family: note;
+  src: url(../src/assets/A-Note-font_Afkari-Studio_111121/A\ Note.ttf);
+}
+
+@font-face {
+  font-family: ambidex;
+  src: url(../src/assets/Ambidexter-Regular.otps/EB/EB/Ambidexter/ambidexter_regular.otf);
+}
+
+@font-face {
+  font-family: bagnard;
+  src: url(../src/assets/Bagnard.otf);
+}
+
+.About {
+  z-index: 10;
+}
+
+.Testi {
+  z-index: 6;
+}
