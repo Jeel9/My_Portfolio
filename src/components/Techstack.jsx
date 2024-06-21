@@ -21,7 +21,7 @@ import app4 from '../assets/app4.png';
 function Techstack() {
 
     return (
-        <div className='w-full mt-[-32vh] px-[5.5vw] flex flex-col items-center justify-center font-[clash]'>
+        <div data-scroll data-scroll-speed="" className='w-full mt-[-210px] px-[5.5vw] flex flex-col items-center justify-center font-[clash]'>
             <div className='flex items-center gap-[8px]'>
                 <h1 className='text-[4vw] leading-none font-semibold font-[tiny]'>Technology</h1>
                 <h1 className='text-[4vw] leading-none tracking-[-1.5px] font-semibold '>I use</h1>

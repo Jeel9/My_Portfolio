@@ -18,7 +18,7 @@ function Featured() {
     const mystyle = { background: "linear-gradient(45deg, #bd8e57 0%, #384588 100%)" };
 
     return (
-        <div data-scroll data-scroll-speed="0.6" className='z-[10] relative w-full bg-[#181818] text-[#e9e9e9] font-["Clash"] rounded-[2.2vw] pt-[12vh] pb-[100px] mt-[-51vh]'>
+        <div data-scroll data-scroll-speed="0.6" className='z-[10] relative w-full bg-[#181818] text-[#e9e9e9] font-["Clash"] rounded-[2.2vw] pt-[12vh] pb-[100px] mt-[-390px]'>
             <div className='flex items-center gap-[12px] px-[5.5vw] pb-6'>
                 <h1 className='text-[4vw] leading-none tracking-[-1.5px] font-semibold font-[tiny]'>Featured</h1>
                 <h1 className='text-[4vw] leading-none font-semibold '> Projects</h1>

@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import React, { useState } from 'react'
 import myimg from '../assets/Resume_image.jpg'
-// import myvid from '../assets/Untitled'
 
 function LandingPage() {
 
@@ -18,7 +17,7 @@ function LandingPage() {
         transition: 'background-color 0.3s ease',
     };
     return (
-        <div data-scroll data-scroll-speed="-.1"
+        <div data-scroll data-scroll-speed="-.2"
             className='w-full h-screen font-["Clash"] bg-[#0e0e0e] pt-1'>
             {/* <div className='HeroText mt-48 px-[5.5vw]'>
                  {["Your brand meets", "my skills", "a perfect combo!"].map((line, index) => 

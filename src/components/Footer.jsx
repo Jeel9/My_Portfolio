@@ -8,7 +8,7 @@ function Footer() {
     }, [])
 
     return (
-        <div className='w-full pb-[12vw] mt-[-2vh] px-[5.5vw] text-[#d9d9d9] bg-[#0e0e0e] font-["Clash"] flex gap-6'>
+        <div className='w-full pb-[12vw] mt-[-20px] px-[5.5vw] text-[#d9d9d9] bg-[#0e0e0e] font-["Clash"] flex gap-6'>
 
             <div className='w-1/2 h-full'>
                 <a href="">

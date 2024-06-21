@@ -18,7 +18,7 @@ function Testimonials() {
     return (
 
         <div data-scroll data-scroll-speed="0.3"
-            className='z-[2] px-[5.5vw] flex flex-col items-center relative w-full bg-[#181818] text-[#e9e9e9] font-["Clash"] rounded-[2.2vw] py-[10vh] pb-[100px] mt-[-20vh]'>
+            className='z-[2] px-[5.5vw] flex flex-col items-center relative w-full bg-[#181818] text-[#e9e9e9] font-["Clash"] rounded-[2.2vw] py-[10vh] pb-[100px] mt-[-110px]'>
             {/* <div className='sectionTitle w-full'>
                 <h1 className='text-[4vw] leading-none tracking-[-1.5px] font-semibold'>What my</h1>
                 <div className='flex items-center gap-[8px]'>
