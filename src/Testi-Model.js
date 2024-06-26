@@ -31,7 +31,7 @@ const AllTestimonials = [
     {
         id: 4,
         image: img4,
-        review: 'Jeel is Elon Musk of Developers. I love the way he visualizes an app before developing it. This ensures us that the outcome would be great and it was truely. At each step he asks feedbacks and puts his all creativity into it. You were the best choice for my App!',
+        review: 'Great mobile developer. Loved the app!',
         name: 'Patrick',
         post: 'Manager, Paramount Textile Ltd',
     },
