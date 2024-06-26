@@ -17,7 +17,7 @@ function LandingPage() {
         transition: 'background-color 0.3s ease',
     };
     return (
-        <div data-scroll data-scroll-speed="-.2"
+        <div data-scroll data-scroll-speed="-.3"
             className='w-full h-screen font-["Clash"] bg-[#0e0e0e] pt-1'>
             {/* <div className='HeroText mt-48 px-[5.5vw]'>
                  {["Your brand meets", "my skills", "a perfect combo!"].map((line, index) => 
@@ -66,9 +66,11 @@ function LandingPage() {
                         <h1 key={index} className='text-[14px] font-light'>{line}</h1>
                     </div>)}
                     <div className='button'>
-                        <div onMouseEnter={() => setHovering1(true)} onMouseLeave={() => setHovering1(false)} style={innerButtonStyles}>
-                            ✨ Start a project
-                        </div>
+                        <a href="">
+                            <div onMouseEnter={() => setHovering1(true)} onMouseLeave={() => setHovering1(false)} style={innerButtonStyles}>
+                                ✨ Start a project
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

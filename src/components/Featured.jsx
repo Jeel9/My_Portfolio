@@ -9,6 +9,9 @@ import ParaImg from '../assets/PMT Cover.png'
 // import SsImg from '../assets/Mockup 02-3.png'
 // import KashImg from '../assets/Mockup 6.png'
 
+import { NavLink } from 'react-router-dom'
+
+
 function Featured() {
     const [isHovering1, setHovering1] = useState(false);
     const [isHovering2, setHovering2] = useState(false);
@@ -28,7 +31,11 @@ function Featured() {
 
             <div className="Card-div flex gap-[32px] px-[5.5vw] py-[16px] w-full relative">
                 {/* Card 1 */}
-                <div onMouseEnter={() => setHovering1(true)} onMouseLeave={() => setHovering1(false)} className='card w-1/2 rounded-2xl h-[38vw] overflow-hidden'>
+
+                <div
+                    onMouseEnter={() => setHovering1(true)}
+                    onMouseLeave={() => setHovering1(false)}
+                    className='card w-1/2 rounded-2xl h-[38vw] overflow-hidden'>
                     <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-10">
                         <h1 className="text-[#735B1C] flex overflow-hidden uppercase text-[4vw] font-medium">
                             {"Enpak".split('').map((item, index) =>
@@ -38,12 +45,14 @@ function Featured() {
                             )}
                         </h1>
                     </div>
-                    <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ duration: 0.3 }}
-                        className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                        <img src={EnpakImg} alt="" />
-                    </motion.div>
+                    <NavLink to='/project'>
+                        <motion.div
+                            whileHover={{ scale: 0.9 }}
+                            transition={{ duration: 0.3 }}
+                            className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
+                            <img src={EnpakImg} alt="" />
+                        </motion.div>
+                    </NavLink>
                 </div>
 
                 {/* Card 2 */}
@@ -57,12 +66,14 @@ function Featured() {
                             )}
                         </h1>
                     </div>
-                    <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ duration: 0.3 }}
-                        className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                        <img src={SsImg} alt="" />
-                    </motion.div>
+                    <NavLink to='/project'>
+                        <motion.div
+                            whileHover={{ scale: 0.9 }}
+                            transition={{ duration: 0.3 }}
+                            className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
+                            <img src={SsImg} alt="" />
+                        </motion.div>
+                    </NavLink>
                 </div>
 
 
@@ -81,12 +92,14 @@ function Featured() {
                             )}
                         </h1>
                     </div>
-                    <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ duration: 0.3 }}
-                        className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                        <img src={KashImg} alt="" />
-                    </motion.div>
+                    <NavLink to='/project'>
+                        <motion.div
+                            whileHover={{ scale: 0.9 }}
+                            transition={{ duration: 0.3 }}
+                            className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
+                            <img src={KashImg} alt="" />
+                        </motion.div>
+                    </NavLink>
                 </div>
 
                 {/* Card 4 */}
@@ -100,12 +113,14 @@ function Featured() {
                             )}
                         </h1>
                     </div>
-                    <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ duration: 0.3 }}
-                        className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                        <img src={EnpakImg} alt="" />
-                    </motion.div>
+                    <NavLink to='/project'>
+                        <motion.div
+                            whileHover={{ scale: 0.9 }}
+                            transition={{ duration: 0.3 }}
+                            className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
+                            <img src={EnpakImg} alt="" />
+                        </motion.div>
+                    </NavLink>
                 </div>
             </div>
         </div >

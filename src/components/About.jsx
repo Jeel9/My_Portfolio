@@ -9,7 +9,7 @@ function About() {
   ]
 
   return (
-    <div data-scroll data-scroll-speed=".7" className='About relative w-full flex gap-[10vw] py-[12vh] px-[5.5vw] rounded-[2.2vw] bg-[#d9d9d9] text-[#0e0e0e] mt-[-330px]'>
+    <div data-scroll data-scroll-speed=".9" className='About relative w-full flex gap-[10vw] py-[12vh] px-[5.5vw] rounded-[2.2vw] bg-[#d9d9d9] text-[#0e0e0e] mt-[-400px]'>
       <div className='flex items-top mt-[1.1vw]'>
         <h1 className='text-[4vw] leading-none font-semibold font-[tiny] mr-[-6px]'>A</h1>
         <h1 className='text-[4vw] leading-none tracking-[-1.5px] font-semibold font-[clash]'>bout</h1>
