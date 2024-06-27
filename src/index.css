@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Clash;
-  src: url(../src/assets/ClashGrotesk_Complete/Fonts/WEB/fonts/ClashGrotesk-Variable.ttf);
+  src: url(../ClashGrotesk-Variable.ttf);
 }
 
 @font-face {
@@ -14,12 +14,12 @@
 
 @font-face {
   font-family: tiny;
-  src: url(../src/assets/Tiny5/Tiny5-Regular.ttf);
+  src: url(../Tiny5-Regular.ttf);
 }
 
 @font-face {
   font-family: note;
-  src: url(../src/assets/A-Note-font_Afkari-Studio_111121/A-Note.ttf);
+  src: url(../A-Note.ttf);
 }
 
 @font-face {
