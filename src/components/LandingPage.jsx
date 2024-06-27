@@ -6,6 +6,10 @@ function LandingPage() {
 
     const [isHovering1, setHovering1] = useState(false);
 
+    const handleEmailClick = () => {
+        window.location.href = 'mailto:uidsg.jeel@gmail.com?subject=Project%20Requirements&body=Please add your project requirements, expected deadline or duration and budget. If possible also provide a good time to talk so that I can revert back with a quotation. Thanks!';
+    };
+
     const innerButtonStyles = {
         padding: '8px 16px',
         border: '1px solid #3f3f3f',
@@ -17,7 +21,7 @@ function LandingPage() {
         transition: 'background-color 0.3s ease',
     };
     return (
-        <div data-scroll data-scroll-speed="-.3"
+        <div data-scroll data-scroll-speed="-.5"
             className='w-full h-screen font-["Clash"] bg-[#0e0e0e] pt-1'>
             {/* <div className='HeroText mt-48 px-[5.5vw]'>
                  {["Your brand meets", "my skills", "a perfect combo!"].map((line, index) => 
@@ -65,12 +69,10 @@ function LandingPage() {
                     {["Mobile Apps", "Dashboards", "Websites"].map((line, index) => <div>
                         <h1 key={index} className='text-[14px] font-light'>{line}</h1>
                     </div>)}
-                    <div className='button'>
-                        <a href="">
-                            <div onMouseEnter={() => setHovering1(true)} onMouseLeave={() => setHovering1(false)} style={innerButtonStyles}>
-                                ✨ Start a project
-                            </div>
-                        </a>
+                    <div className='button' onClick={handleEmailClick}>
+                        <div onMouseEnter={() => setHovering1(true)} onMouseLeave={() => setHovering1(false)} style={innerButtonStyles}>
+                            ✨ Start a project
+                        </div>
                     </div>
                 </div>
             </div>

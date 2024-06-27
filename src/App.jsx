@@ -40,14 +40,10 @@ function App() {
       </div>
       <Footer />
 
-      {/* Work Left-
-          Activate Links
-          Navbar CSS
-          Footer Design
-
+      {/*
           Future Work-
           Timeline (Work exp.)
-          */}
+      */}
 
     </div>
   )

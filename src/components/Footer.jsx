@@ -8,10 +8,10 @@ function Footer() {
     }, [])
 
     return (
-        <div className='w-full pb-[12vw] mt-[-20px] px-[5.5vw] text-[#d9d9d9] bg-[#0e0e0e] font-["Clash"] flex gap-6'>
+        <div data-scroll data-scroll-speed="-.6" className='w-full pt-[420px] mt-[-350px] px-[5.5vw] text-[#d9d9d9] font-["Clash"] flex gap-6'>
 
-            <div className='w-1/2 h-full'>
-                <a href="">
+            <div className='w-1/2'>
+                <a href="https://jeelportfolio.vercel.app">
                     <svg width="64" height="64" viewBox="0 0 134 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M67.5 27L85.5 27L39.4341 107.364L30.5 91.5L67.5 27Z" fill="white" />
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M24.9632 84.6188L49.0309 42.9323H0.895508L24.9632 84.6188ZM24.9282 65.0718L31.8564 53.0718H18L24.9282 65.0718Z" fill="white" />
@@ -29,7 +29,7 @@ function Footer() {
                     Jeel Patel
                 </div> */}
             </div>
-            <div className='w-1/2 h-full'>
+            <div className='w-1/2'>
                 {/* <div className="bookcall">
                         <div className='bookcall text-[1vw] font-semibold'>
                             Want to discuss an idea over a short call?
@@ -47,7 +47,7 @@ function Footer() {
                         -  {time.toLocaleTimeString()}
                     </div>
                 </div>
-                <div className='text-[1vw] text-[#909090] mt-3 flex justify-end '>
+                <div className='text-[1vw] text-[#909090] mt-2 flex justify-end '>
                     Made with passion & a glass of cold milk 🥛
                 </div>
             </div>
