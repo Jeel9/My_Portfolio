@@ -67,7 +67,7 @@ function Navbar({ onAboutClick, onProjClick }) {
         <a className={`text-[14px] capitalize`} href="#" onClick={onAboutClick}>
           About
         </a>
-        <a className={`text-[14px] capitalize`} href="https: github.com/Jeel9">
+        <a className={`text-[14px] capitalize`} href="https://github.com/Jeel9">
           Github
         </a>
       </div>
