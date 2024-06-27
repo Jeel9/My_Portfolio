@@ -52,7 +52,7 @@ function Navbar({ onAboutClick, onProjClick }) {
         </div>
       </div> */}
       {/* <div className='fixed z-[999] w-full px-[5.5vw] py-[1vw] flex items-center justify-between'> */}
-      <a href="https: jeelportfolio.vercel.app" className='flex gap-[8px] items-center'>
+      <a href="https://jeelportfolio.vercel.app" className='flex gap-[8px] items-center'>
         <svg width="40" height="40" viewBox="0 0 134 132" fill="none" xmlns="http: www.w3.org/2000/svg">
           <path d="M67.5 27L85.5 27L39.4341 107.364L30.5 91.5L67.5 27Z" fill="white" />
           <path fill-rule="evenodd" clip-rule="evenodd" d="M24.9632 84.6188L49.0309 42.9323H0.895508L24.9632 84.6188ZM24.9282 65.0718L31.8564 53.0718H18L24.9282 65.0718Z" fill="white" />
@@ -72,7 +72,7 @@ function Navbar({ onAboutClick, onProjClick }) {
         </a>
       </div>
       <div className='button font-["Clash"] pl-[17vw]'>
-        <a href="https: calendly.com/uidsg-jeel/development-call">
+        <a href="https://calendly.com/uidsg-jeel/development-call">
           <div onMouseEnter={() => setHovering1(true)} onMouseLeave={() => setHovering1(false)} style={innerButtonStyles}>
             🗓️ Book a call
           </div>
