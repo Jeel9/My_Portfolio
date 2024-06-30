@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import EnpakImg from '../assets/Enpak Cover.png'
 import SsImg from '../assets/SS Cover.png'
 import KashImg from '../assets/Kash Cover.png'
-import ParaImg from '../assets/PMT Cover.png'
+import ParaImg from '../assets/Sample Select Cover.png'
 
 // import EnpakImg from '../assets/Mockup 5-2.png'
 // import SsImg from '../assets/Mockup 02-3.png'
@@ -50,7 +50,7 @@ function Featured() {
                             whileHover={{ scale: 0.9 }}
                             transition={{ duration: 0.3 }}
                             className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                            <img src={EnpakImg} alt="" />
+                            <img src={EnpakImg} alt="Enpak App Image" />
                         </motion.div>
                     </NavLink>
                 </div>
@@ -71,7 +71,7 @@ function Featured() {
                             whileHover={{ scale: 0.9 }}
                             transition={{ duration: 0.3 }}
                             className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                            <img src={SsImg} alt="" />
+                            <img src={SsImg} alt="SaiSystems Dashboard Image" />
                         </motion.div>
                     </NavLink>
                 </div>
@@ -97,7 +97,7 @@ function Featured() {
                             whileHover={{ scale: 0.9 }}
                             transition={{ duration: 0.3 }}
                             className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                            <img src={KashImg} alt="" />
+                            <img src={KashImg} alt="Kash App Image" />
                         </motion.div>
                     </NavLink>
                 </div>
@@ -106,7 +106,7 @@ function Featured() {
                 <div onMouseEnter={() => setHovering4(true)} onMouseLeave={() => setHovering4(false)} className='card w-1/2 rounded-2xl h-[38vw] overflow-hidden'>
                     <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-10">
                         <h1 className="text-[#F01919] flex overflow-hidden uppercase text-[4vw] font-medium">
-                            {"Paramount".split('').map((item, index) =>
+                            {'Sample_Select'.split('').map((item, index) =>
                                 <motion.span initial={{ y: "100%" }} animate={isHovering4 ? ({ y: "0" }) : ({ y: "100%" })} transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.03 }}
                                     className='inline-block'>{item}
                                 </motion.span>
@@ -118,7 +118,7 @@ function Featured() {
                             whileHover={{ scale: 0.9 }}
                             transition={{ duration: 0.3 }}
                             className='ImageContainer overflow-hidden rounded-[1.2vw] bg-[#0e0e0e]'>
-                            <img src={EnpakImg} alt="" />
+                            <img src={ParaImg} alt="Sample Select App Image" />
                         </motion.div>
                     </NavLink>
                 </div>

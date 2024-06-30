@@ -42,6 +42,7 @@ function App() {
 
       {/*
           Future Work-
+          Add case studies
           Timeline (Work exp.)
       */}
 

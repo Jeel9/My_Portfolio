@@ -64,7 +64,7 @@ function LandingPage() {
                 </div>
             </div>
 
-            <div className='border-t-[1px] border-zinc-800 mt-[220px]'>
+            <div className='border-t-[1px] border-zinc-800 mt-[180px]'>
                 <div className='Niche mt-4 px-[5.5vw] flex justify-between items-center'>
                     {["Mobile Apps", "Dashboards", "Websites"].map((line, index) => <div>
                         <h1 key={index} className='text-[14px] font-light'>{line}</h1>
