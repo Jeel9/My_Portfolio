@@ -6,13 +6,14 @@ import './index.css'
 ///
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ProjectDetails from './components/ProjectDetails';
+import CaseStudy from './components/CaseStudy.jsx';
 
 ////
 
 ///
 const routes = createBrowserRouter([
   { path: "/", element: <App /> },
-  { path: "/project", element: <ProjectDetails /> },
+  { path: "/project/:projectId", element: <CaseStudy/> },
 ]);
 ///
 

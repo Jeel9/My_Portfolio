@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import myimg from '../assets/Resume_image.jpg';
-import AllTestimonials from '../Testi-Model';
+import AllTestimonials from '../CMS/Testi-Model';
 import { TestiCard } from './Testi-Card';
 import { Swiper, SwiperSlide } from 'swiper/react';
 

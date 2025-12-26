@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='text-[1vw] text-[#909090] mt-2 flex justify-end '>
-                    Made with passion & a glass of cold milk 🥛
+                    Made with passion & React JS
                 </div>
             </div>
         </div>

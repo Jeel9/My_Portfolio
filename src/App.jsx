@@ -9,7 +9,6 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Testimonials from "./components/Testimonials";
 import Techstack from "./components/Techstack";
 
-
 function App() {
   const aboutRef = useRef(null);
   const projRef = useRef(null);

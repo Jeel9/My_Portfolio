@@ -1,7 +1,7 @@
-import img1 from './assets/enpakImg.jpeg';
-import img2 from './assets/nrupImg.jpg';
-import img3 from './assets/binoy.jpg';
-import img4 from './assets/mizko.avif';
+import img1 from '../assets/enpakImg.jpeg';
+import img2 from '../assets/nrupImg.jpg';
+import img3 from '../assets/binoy.jpg';
+import img4 from '../assets/mizko.avif';
 
 const AllTestimonials = [
     {
@@ -31,7 +31,7 @@ const AllTestimonials = [
     {
         id: 4,
         image: img4,
-        review: 'Great mobile developer. Loved the app!',
+        review: 'Responsible & reliable, meet my requirement & always helpful. My pleasure to work with Jeel, Jeel will be my first choice for my next job. Good person to work with.',
         name: 'Patrick',
         post: 'Manager, Paramount Textile Ltd',
     },
